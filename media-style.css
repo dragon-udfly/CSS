@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #ef4545;
+}
+
+.container{
+    width: 100%;
+    background-color: aqua;
+    height: 50vh;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        border: 1px solid yellow;
+    }
+
+    .container{
+        background-color: violet;
+    }
+}

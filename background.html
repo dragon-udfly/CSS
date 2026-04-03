@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <style>
+        body{
+            background-image: url(src/background.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1{
+            text-align: center;
+            color: #ff00cc;
+        }
+
+        pre{
+            text-align: center;
+        }
+
+        #box{
+            text-align: center;
+            border-top-width: 2px;
+            border-top-style: dotted;
+            border-top-color: green;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 10px;
+            border-right-width: 3px;
+            border-right-style: dashed;
+            border-right-color: red;
+            border-bottom-style: double;
+            border-bottom-width: 1px;
+            border-bottom-color: blue;
+            border-bottom-right-radius: 15px;
+            border-left-style: solid;
+            border-left-color: black;
+            border-left-width: 1px;
+            border-bottom-left-radius: 20px;
+
+            outline-width: 5px;
+            outline-color: yellow;
+            outline-style: groove;
+            outline-offset: 3px;
+
+            width: 200px;
+            padding: 10px;
+        }
+
+        #vb{
+            width: 100px;
+            height: 100px;
+            margin-left: 100px;
+            background-image: linear-gradient(to left, red 30%, green 50%, blue 50%);
+        }
+
+        #vb1{
+            background-image: radial-gradient(circle at center, white 10%, yellow 20%, blue 100%);
+            width: 100px;
+            height: 100px;
+            margin-left: 100px;
+        }
+
+        #vb2{
+            background-image: conic-gradient(from 0deg, red, yellow, green);
+            width: 100px;
+            height: 100px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Alias ducimus pariatur ipsa minus, quos, maiores, fugit 
+        eligendi asperiores nobis dignissimos eveniet impedit 
+        itaque placeat tempore vero consequatur facilis eum nihil.
+    </pre>
+    <br />
+    <br />
+    <div id="box">
+        This is a box.
+    </div>
+    <br />
+    <br />
+    <div id="vb">
+
+    </div>
+    <br />
+    <br />
+    <div id="vb1">
+
+    </div>
+    <br />
+    <br />
+    <div id="vb2">
+
+    </div>
+</body>
+</html>

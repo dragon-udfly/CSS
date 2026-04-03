@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:darkslategrey;
+    display: flow-root;
+    border: 2px solid;
+}
+
+.container{
+    margin-top: 100px;
+    background-color: gray;
+    width: 500px;
+    height: 500px; 
+}
+
+.container > .box1{
+    width: 50px;
+    height: 50px;
+    background-color: #ebb609;
+    float: left;
+}
+
+.container > .box2{
+    width: 50px;
+    height: 50px;
+    background-color: #ab09eb;
+    float: right;
+}
+
+.container > .box3{
+    width: 50px;
+    height: 50px;
+    background-color: #09eb7a;
+    margin: 100px;
+}
+
+p{
+    float: right;
+}
